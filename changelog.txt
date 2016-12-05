@@ -1,0 +1,37 @@
+-0.24-
+Snowstorm!
+-0.23-
+Changelog style edited.
+Added session checking in nav.php
+Changed 5 random players block to TOP 5 Players descending order by total kills.
+Added Online Players page.
+Added Navigation tab for Online Players.
+Added Navigation icon.
+Table added to Online Players page.
+Added Player name, Class, Level, Zone, Latency and kills as headers.
+Added PHP script that collects and outputs the data.
+**Online Players page has not been tested, i do not run a local server anymore, so i have no place to test on. If you have a server or you can send me a pm with a screenshot of your characters database while someone is online, that would be awesome. :) **
+-0.22-
+Official website is online and functioning again.
+Added more options in the installer.
+-Added option to select a Characters database
+-Added option to select an auth database.
+Fixed few CSS problems
+Added copyright footer
+Installer adds "web_admin" column in auth->account
+-0=Not showing any, aka just a player.
+-1=GameMaster
+-2=Administrator
+-3=Owner
+Registration now inserts the value "0" to web_admin upon registration
+Admin panel folder added
+Admin panel menu button added.
+
+-0.21-
+Security update for registration (Tested and should be working)
+Paging system implemented
+Fixed includes
+Changelog started
+Added <!DOCTYPE html> to beginning of page..
+Fixed some styling that was wrong
+Fixed the config installer, pulling data from wrong domain
